@@ -35,6 +35,7 @@ Uses [mcwhittemore's unobfuscated chicken
 VM](https://github.com/mcwhittemore/chicken) to run your chicken machine code.
 
 ```bash
+$ git clone https://github.com/mcwhittemore/chicken
 $ echo "10\n10\nmultiply\nchars" | ./code_to_chicken.py | ./chicken_run
 d
 ```
