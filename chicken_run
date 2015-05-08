@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+chickenjs="chicken/bin/chicken.js"
+tmpfile="/tmp/c.chicken"
+
+rm -f $tmpfile
+while read line; do
+    echo $line >> $tmpfile
+done
+node $chickenjs -r $tmpfile
+
+# cp $1 $tmpfile
+
+# node $chickenjs -r $1
