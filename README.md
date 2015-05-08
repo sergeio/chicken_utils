@@ -46,7 +46,6 @@ encode.py
 Translates STDIN into Chicken machine language that prints out text from STDIN.
 Compresses the Chicken code by about 50% as compared to a naive implementation.
 
-echo 'hi!'
 ```bash
 $ echo 'hi!' | ./encode.py
 chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
